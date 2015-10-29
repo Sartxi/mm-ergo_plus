@@ -3,7 +3,7 @@
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>The Spine Insitute</title>
+	<title>Ergo Plus - Work place solutions</title>
 	<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700|Kalam:300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/css/app.css">
@@ -12,7 +12,7 @@
 	<!--[if lte IE 8]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       <script src="/js/respond.min.js"></script>
-    <![endif]-->  
+    <![endif]-->
     <script src="/js/app.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
@@ -22,12 +22,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-sm-6">
-						<a href="/"><img src="/img/logo.png" class="img-responsive img-rounded"/></a>
+						<a href="/"><img src="/img/logo.png" class="img-responsive img-rounded logo"/></a>
 					</div>
 					<div class="col-md-6 col-sm-6 text-right titles hidden-xs">
-						<div class="row numbers">
+						<!-- <div class="row numbers">
 							<div class="col-md-12">
-								<a href="http://www.mmprotherapy.com/index.html" target="_blank"><img src="/img/logo.jpg" class="img-responsive img-rounded mmlogo"/></a>		
+								<a href="http://www.mmprotherapy.com/index.html" target="_blank"><img src="/img/logo.jpg" class="img-responsive img-rounded mmlogo"/></a>
 							</div>
 							<div class="col-md-4">
 								<h4><small>Tooele (Main Steet):</small><br />435-882-3157</h4>
@@ -38,7 +38,7 @@
 							<div class="col-md-4">
 								<h4><small>West Valley:</small><br />801-955-0500</h4>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
