@@ -8,6 +8,8 @@ class PagesController extends AppController {
 	public $components = array('Email');
 
 	public function about() {}
+	public function safety() {}
+	public function solutions() {}
 	public function contact() {
 
 		if (!empty($this->request->data['contact']) and isset($_POST['g-recaptcha-response'])) {

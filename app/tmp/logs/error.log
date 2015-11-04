@@ -3982,3 +3982,310 @@ Stack Trace:
 #5 /Users/SeanArchibeque/Sites/mandm/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
 #6 /Users/SeanArchibeque/Sites/mandm/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #7 {main}
+2015-11-03 19:23:36 Error: [MissingControllerException] Controller class What-we-doController could not be found.
+Exception Attributes: array (
+  'class' => 'What-we-doController',
+  'plugin' => NULL,
+)
+Request URL: /what-we-do
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 19:23:39 Error: [MissingControllerException] Controller class Who-we-work-withController could not be found.
+Exception Attributes: array (
+  'class' => 'Who-we-work-withController',
+  'plugin' => NULL,
+)
+Request URL: /who-we-work-with
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 19:23:44 Error: [MissingControllerException] Controller class What-we-doController could not be found.
+Exception Attributes: array (
+  'class' => 'What-we-doController',
+  'plugin' => NULL,
+)
+Request URL: /what-we-do
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 19:23:47 Error: [MissingControllerException] Controller class Who-we-work-withController could not be found.
+Exception Attributes: array (
+  'class' => 'Who-we-work-withController',
+  'plugin' => NULL,
+)
+Request URL: /who-we-work-with
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 19:23:59 Error: [MissingControllerException] Controller class Who-we-work-withController could not be found.
+Exception Attributes: array (
+  'class' => 'Who-we-work-withController',
+  'plugin' => NULL,
+)
+Request URL: /who-we-work-with
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 19:24:37 Error: [MissingControllerException] Controller class Who-we-work-withController could not be found.
+Exception Attributes: array (
+  'class' => 'Who-we-work-withController',
+  'plugin' => NULL,
+)
+Request URL: /who-we-work-with
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 19:25:16 Error: [MissingControllerException] Controller class What-we-doController could not be found.
+Exception Attributes: array (
+  'class' => 'What-we-doController',
+  'plugin' => NULL,
+)
+Request URL: /what-we-do
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 19:25:17 Error: [MissingControllerException] Controller class Who-we-work-withController could not be found.
+Exception Attributes: array (
+  'class' => 'Who-we-work-withController',
+  'plugin' => NULL,
+)
+Request URL: /who-we-work-with
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 19:29:05 Error: [MissingControllerException] Controller class What-we-doController could not be found.
+Exception Attributes: array (
+  'class' => 'What-we-doController',
+  'plugin' => NULL,
+)
+Request URL: /what-we-do
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 19:29:16 Error: [MissingControllerException] Controller class What-we-doController could not be found.
+Exception Attributes: array (
+  'class' => 'What-we-doController',
+  'plugin' => NULL,
+)
+Request URL: /what-we-do
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 19:29:17 Error: [MissingControllerException] Controller class Who-we-work-withController could not be found.
+Exception Attributes: array (
+  'class' => 'Who-we-work-withController',
+  'plugin' => NULL,
+)
+Request URL: /who-we-work-with
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 19:38:08 Error: [MissingControllerException] Controller class SafetyController could not be found.
+Exception Attributes: array (
+  'class' => 'SafetyController',
+  'plugin' => NULL,
+)
+Request URL: /safety
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 19:50:04 Error: [MissingControllerException] Controller class SafetyController could not be found.
+Exception Attributes: array (
+  'class' => 'SafetyController',
+  'plugin' => NULL,
+)
+Request URL: /safety
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 21:04:57 Error: [MissingControllerException] Controller class SafetyController could not be found.
+Exception Attributes: array (
+  'class' => 'SafetyController',
+  'plugin' => NULL,
+)
+Request URL: /safety
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 21:06:53 Error: [MissingControllerException] Controller class SignupController could not be found.
+Exception Attributes: array (
+  'class' => 'SignupController',
+  'plugin' => NULL,
+)
+Request URL: /signup
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 21:06:55 Error: [MissingControllerException] Controller class SafetyController could not be found.
+Exception Attributes: array (
+  'class' => 'SafetyController',
+  'plugin' => NULL,
+)
+Request URL: /safety
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 21:08:02 Error: [MissingControllerException] Controller class SafetyController could not be found.
+Exception Attributes: array (
+  'class' => 'SafetyController',
+  'plugin' => NULL,
+)
+Request URL: /safety
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 21:08:20 Error: [MissingControllerException] Controller class SafetyController could not be found.
+Exception Attributes: array (
+  'class' => 'SafetyController',
+  'plugin' => NULL,
+)
+Request URL: /safety
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 21:08:21 Error: [MissingControllerException] Controller class SignupController could not be found.
+Exception Attributes: array (
+  'class' => 'SignupController',
+  'plugin' => NULL,
+)
+Request URL: /signup
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 21:10:47 Error: [MissingControllerException] Controller class SafetyController could not be found.
+Exception Attributes: array (
+  'class' => 'SafetyController',
+  'plugin' => NULL,
+)
+Request URL: /safety
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 21:10:48 Error: [MissingControllerException] Controller class SignupController could not be found.
+Exception Attributes: array (
+  'class' => 'SignupController',
+  'plugin' => NULL,
+)
+Request URL: /signup
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 21:12:01 Error: [MissingControllerException] Controller class SafetyController could not be found.
+Exception Attributes: array (
+  'class' => 'SafetyController',
+  'plugin' => NULL,
+)
+Request URL: /safety
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 21:12:30 Error: [MissingControllerException] Controller class SafetyController could not be found.
+Exception Attributes: array (
+  'class' => 'SafetyController',
+  'plugin' => NULL,
+)
+Request URL: /safety
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 21:14:09 Error: [MissingControllerException] Controller class SolutionsController could not be found.
+Exception Attributes: array (
+  'class' => 'SolutionsController',
+  'plugin' => NULL,
+)
+Request URL: /solutions
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 22:02:27 Error: [MissingControllerException] Controller class SolutionsController could not be found.
+Exception Attributes: array (
+  'class' => 'SolutionsController',
+  'plugin' => NULL,
+)
+Request URL: /solutions
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 22:34:05 Error: [MissingControllerException] Controller class SolutionsController could not be found.
+Exception Attributes: array (
+  'class' => 'SolutionsController',
+  'plugin' => NULL,
+)
+Request URL: /solutions
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 22:46:46 Error: [MissingControllerException] Controller class SafetyController could not be found.
+Exception Attributes: array (
+  'class' => 'SafetyController',
+  'plugin' => NULL,
+)
+Request URL: /safety
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 22:47:33 Error: [MissingActionException] Action PagesController::safety() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'safety',
+)
+Request URL: /safety
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-03 22:47:34 Error: [MissingActionException] Action PagesController::safety() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'safety',
+)
+Request URL: /safety
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-03 22:48:15 Error: [MissingControllerException] Controller class SolutionsController could not be found.
+Exception Attributes: array (
+  'class' => 'SolutionsController',
+  'plugin' => NULL,
+)
+Request URL: /solutions
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 22:48:40 Error: [MissingViewException] View file "Pages/solutions.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/solutions.ctp',
+)
+Request URL: /solutions
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-04 00:22:40 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 01:44:43 Error: [MissingViewException] View file "Pages/solutions.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/solutions.ctp',
+)
+Request URL: /solutions
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

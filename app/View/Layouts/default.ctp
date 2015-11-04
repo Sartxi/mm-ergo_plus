@@ -25,26 +25,26 @@
 						<a href="/"><img src="/img/logo.png" class="img-responsive img-rounded logo"/></a>
 					</div>
 					<div class="col-md-6 col-sm-6 text-right titles hidden-xs">
-						<!-- <div class="row numbers">
-							<div class="col-md-12">
+						<div class="row numbers">
+							<!-- <div class="col-md-12">
 								<a href="http://www.mmprotherapy.com/index.html" target="_blank"><img src="/img/logo.jpg" class="img-responsive img-rounded mmlogo"/></a>
+							</div> -->
+							<div class="col-md-4">
+								<h3><small>Tooele (Main Steet):</small><br />435-882-3157</h3>
 							</div>
 							<div class="col-md-4">
-								<h4><small>Tooele (Main Steet):</small><br />435-882-3157</h4>
+								<h3><small>Tooele (Northpoint):</small><br />435-843-1311</h3>
 							</div>
 							<div class="col-md-4">
-								<h4><small>Tooele (Northpoint):</small><br />435-843-1311</h4>
+								<h3><small>West Valley:</small><br />801-955-0500</h3>
 							</div>
-							<div class="col-md-4">
-								<h4><small>West Valley:</small><br />801-955-0500</h4>
-							</div>
-						</div> -->
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<?=$this->Element('nav'); ?>
-		<div id="content" class="container">
+		<div id="content">
 			<?=$this->Session->flash(); ?>
 			<?=$this->fetch('content'); ?>
 		</div>
