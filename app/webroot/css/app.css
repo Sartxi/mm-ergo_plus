@@ -4,12 +4,12 @@ body{
 h1, h2, h3, h4, h5 {color: #5f0916;}
 .head {
 	background: #5f0916;
-	padding: 14px 0;
+	padding: 20px 0;
 	color: white;
 }
 .logo {width:336px;}
 .mmlogo { max-width: 237px; margin: 0 auto; margin-top: 27px;}
-.head h3, .head h3 small, .head h4, .head h5, .titles {color: white; margin-top: 5px;}
+.head h3, .head h3 small, .head h4, .head h5, .titles {color: white; margin-top: 11px;}
 .titles hr { margin: 10px 0;}
 .numbers, .numbers h4 small { text-align: center; color: white;}
 .hands {font-family: "Georgia", Times, serif;}
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5 {color: #5f0916;}
 }
 
 .carousel-control {width: 4%!important;}
-.quotecontainer { background: #f7f7f7}
+.quotecontainer { margin-top: 20px}
 .badge {background: #9f0f25}
 .downer {
 	position: absolute;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5 {color: #5f0916;}
     right: 50.6%;
     font-size: 18px;
 }
-.assessmentformarea { margin-bottom: 60px;}
+.assessmentformarea { margin-bottom: 60px;min-height: 610px}
 .foot {
 	background: #f7f7f7;
 	padding: 20px 0 60px;
@@ -94,6 +94,12 @@ ul.footnav li a:hover { color: #aa1027; background: #eee; text-decoration: none;
 	border-right: 2px solid white;
 }
 .bannerTile:hover {width: 14.28%; border-left: 1px solid white;border-right: 1px solid white}
+#education {
+	background: #f7f7f7 url('/img/pattern1.png') top right;
+	border-top: 1px solid #ddd;
+	border-bottom: 2px solid #ddd
+}
+.edWell {background: white;}
 
 /* mobile customize */
 @media (max-width: 995px) {

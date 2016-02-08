@@ -16,12 +16,12 @@
 					<ul class="nav navbar-nav navbar-tab">
 						<li><a id="home" href="/">Home</a></li>
 						<li><a id="about" href="/about">About Us</a></li>
-						<li><a id="solutions" href="/solutions">What We Do</a></li>
 						<li><a id="safety" href="/safety">Safety Survey</a></li>
 						<li><a id="contact" href="/contact">Contact Us</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right nav-logo">
-						<li><a href="" class="hidden-sm hidden-xs" target="_blank"><img src="/img/logo.jpg" class="img-responsive" style="width: 230px; margin: 5px 2px;"></a></li>
+						<li><img src="/img/ergoPlus.png" class="img-responsive" style="width: 188px;margin: 13px 2px;"></li>
+						<li><img src="/img/preventFirst.png" class="img-responsive" style="width: 211px;margin: 10px 5px 10px 29px;"></li>
 					</ul>
 				</div>
 			</div>

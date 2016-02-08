@@ -4289,3 +4289,519 @@ Stack Trace:
 #3 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
 #4 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2015-11-07 00:54:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 00:56:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 00:57:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 00:57:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:00:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:04:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:05:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:05:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:06:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:06:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:07:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:07:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:08:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:08:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:10:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:14:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:15:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:15:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:15:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:16:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:16:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:17:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:22:42 Error: [MissingViewException] View file "Pages/solutions.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/solutions.ctp',
+)
+Request URL: /solutions
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-07 01:25:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:34:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:34:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:35:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:36:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:37:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:38:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:38:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:40:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:40:25 Error: [MissingViewException] View file "Pages/solutions.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/solutions.ctp',
+)
+Request URL: /solutions
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-07 01:40:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 01:41:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 03:13:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 03:13:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 03:14:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 03:17:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 03:18:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 03:18:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 03:18:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 03:18:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 03:22:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 03:23:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 03:23:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 03:23:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-07 03:24:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/educatBg.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-08 23:09:44 Error: [MissingViewException] View file "Pages/solutions.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/solutions.ctp',
+)
+Request URL: /solutions
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-10 04:01:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/safety_icno.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-10 04:01:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/safety_icno.jpg
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-11 04:16:24 Error: [MissingViewException] View file "Pages/solutions.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/solutions.ctp',
+)
+Request URL: /solutions
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-15 23:59:23 Error: [MissingViewException] View file "Pages/solutions.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/solutions.ctp',
+)
+Request URL: /solutions
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-15 23:59:30 Error: [MissingViewException] View file "Pages/solutions.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/solutions.ctp',
+)
+Request URL: /solutions
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-16 00:37:18 Error: [MissingViewException] View file "Pages/solutions.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/solutions.ctp',
+)
+Request URL: /solutions
+Stack Trace:
+#0 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Users/SeanArchibeque/Sites/mm-ergo_plus/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /Users/SeanArchibeque/Sites/mm-ergo_plus/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

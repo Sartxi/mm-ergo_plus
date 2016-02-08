@@ -47,186 +47,341 @@
 ?>
 
 <div class="container">
+	<br /><br />
 	<div class="row">
-		<div id="assessmentform" class="col-md-12 text-center">
-			<h2 class="hands">Back Pain Assessment</h2>
-			<p>One of our specialists will respond within 1-2 business days to recommend the best course of action <em>for your specific needs</em>.</p>
-			<hr>
-			<div class="row assessmentformarea">
-				<div class="col-md-1"></div>
-				<div class="col-md-10">
-					<?=$this->Form->create('assessment', array('inputDefaults'=>array('div'=>'form-group', 'class'=>'form-control', 'wrapInput'=>false)));?>
-					<div class="row text-left">
-						<div class="col-md-1"></div>
-						<div class="col-md-10">
-							<?=$this->Form->input('name', array('placeholder'=>'Enter Your First and Last Name', 'required' => true, 'allowEmpty' => false)); ?>
-							<?=$this->Form->input('email', array('placeholder'=>'you@example.com', 'required' => true, 'allowEmpty' => false)); ?>
-							<?=$this->Form->input('phone', array('placeholder'=>'123-456-7890')); ?>
-							<?=$this->Form->input('age', $ageattributes);?>
-						</div>
-						<div class="col-md-1"></div>
-					</div>
+		<div id="assessmentform" class="col-md-12">
 
-					<hr>
-					<h1>Part 1:</h1>
-					<p class="lead">Assessing the cause of and complications associated with your back pain or sciatica.</p>
-					<div class="row well questions">
-						<div class="col-md-12">
-							<p class="lead">Do you have severe pain in the leg below the knee and experience weakness, numbness, or continuous pins and needles in the foot or toes?</p>
-							<div id="q1" class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q1', $attributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">Have you developed low back problems because of a recent severe accident?</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q2', $attributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">Following a recent severe episode of low back pain, have you developed bowel or bladder problems?</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q3', $attributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">Are you feeling generally unwell in conjunction with this episode of low back pain?</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q4', $attributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">Do you have a history of cancer?</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q5', $attributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">Do you have a fever or high temperature?</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q6', $attributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">Have you lost significant weight for no apparent reason?</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q7', $attributes);?>
-							</div>
-						</div>
+			<div id="surveyWelcome">
+				<div class="row">
+					<div class="col-md-2">
+						<img src="/img/safety_first_icon.jpg" class="img-responsive" style="max-width:170px;margin:0 auto;">
 					</div>
-					<br />
-					<h1>Part 2:</h1>
-					<p class="lead">To determine whether we can help you treat your low back pain or sciatica successfully with mechanical diagnosis and therapy<small>(MDT)</small> without further medical testing or treatments <small>(imaging, medications, injections, etc.)</small></p>
-					<div class="row well questions">
-						<div class="col-md-12">
-							<p class="lead">Are there periods in the day when you have no pain? Even if it is only ten minutes?</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q8', $attributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">Is the pain confined to areas above the knee? <small>(nothing below the knee)</small></p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q9', $attributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">Are you generally worse when sitting for prolonged periods or when rising from a sitting position?</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q10', $attributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">Are you generally worse during or right after prolonged bending or stooping as in bed-making, vacuuming, house work, yard work, etc?</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q11', $attributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">Are you generally worse when getting up in the morning, but improve after about half an hour?</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q12', $attributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">Are you generally worse when inactive and better when on the move?</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q13', $attributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">Are you generally better when walking?</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q14', $attributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">Are you generally better when lying face down?</p><p>When testing this you may feel worse for the first few minutes after which time the pain subsides; <br />(in this case the answer to the question is 'yes')</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q15', $attributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">Have you had several episodes of low back pain over the past months or years?</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q16', $attributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">Between episodes, are you able to move freely in all directions without pain?</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q17', $attributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">Between episodes, are you pain free?</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q18', $attributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">If you have pain in the buttocks, or the upper or lower leg, does it sometimes stop completely, even though you still have pain in the back?</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q19', $attributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">How long has your pain been present?</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q20', $mattributes);?>
-							</div>
-						</div>
-						<div class="col-md-12 seprate"><hr></div>
-						<div class="col-md-12">
-							<p class="lead">When was the last time you had one month without any pain in your back?</p>
-							<div class="btn-group" data-toggle="buttons">
-								<?=$this->Form->input('q21', $mattributes);?>
-							</div>
-						</div>
+					<div class="col-md-10">
+						<h2 class="hands">Workplace Safety Survey</h2>
+						<p>Please answer each question to the best of your knowledge. One of our physical therapists will get back to you shortly to inform you on any areas where the ErgoPlus system could potentially help your company to keep employee wellness and safety education known and keep employee job satisfaction on the rise.</p>
+						<br />
 					</div>
-					<div class="g-recaptcha" data-sitekey="6Ldc_f8SAAAAAGzrA-pKFg5_vgmZ2fd2XmXXt5xy"></div>
-					<?=$this->Form->submit('Submit Assessment!', array('class'=>'btn btn-primary btn-lg btn-mega'))?>
-					<?=$this->Form->end()?>
 				</div>
-				<div class="col-md-1"></div>
+				<div class="col-md-12"><hr></div>
+			</div>
+
+			<div class="row assessmentformarea">
+				<?=$this->Form->create('assessment', array('inputDefaults'=>array('div'=>'form-group', 'class'=>'form-control', 'wrapInput'=>false)));?>
+				<div id="questSet1" class="col-md-12 questions">
+					<h2 class="text-center">Bio-Physics <small>(questions 1-5)</small></h2>
+					<br />
+					<div class="well">
+						<div class="row">
+							<div class="col-md-10">
+								<p class="lead">1. Does your company provide new hire assessments to determine if a candidate is physically able to perform job tasks?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q1', $attributes);?>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12"><hr></div>
+
+							<div class="col-md-10">
+								<p class="lead">2. Does your company provide on-site wellness, general health or fitness center equipment?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q2', $attributes);?>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12"><hr></div>
+
+							<div class="col-md-10">
+								<p class="lead">3. Does your company provide opportunities for employees to receive on-site, one-on-one training for physical conditioning?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q3', $attributes);?>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12"><hr></div>
+
+							<div class="col-md-10">
+								<p class="lead">4. Is there a job conditioning program for employees upon their return to work from an injury?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q4', $attributes);?>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12"><hr></div>
+
+							<div class="col-md-10">
+								<p class="lead">5. Is there an in-house job transfer program to physically condition existing employees for a desired job?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q5', $attributes);?>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="questSet2" class="col-md-12 questions" style="display:none;">
+					<h2 class="text-center">Ergonomics <small>(questions 6-10)</small></h2>
+					<br />
+					<div class="well">
+						<div class="row">
+
+							<div class="col-md-10">
+								<p class="lead">6. Does your company have an ergonomic team in place?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q6', $attributes);?>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12"><hr></div>
+
+							<div class="col-md-10">
+								<p class="lead">7. Are ergonomic assessments being performed immediately upon notification of a risk?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q7', $attributes);?>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12"><hr></div>
+
+							<div class="col-md-10">
+								<p class="lead">8. Are risks being identified and addressed prior to employee notification or injury?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q8', $attributes);?>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12"><hr></div>
+
+							<div class="col-md-10">
+								<p class="lead">9. Are modifications being made to reduce risk of injury and assist an employee in performing a job safely?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q9', $attributes);?>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12"><hr></div>
+
+							<div class="col-md-10">
+								<p class="lead">10. Is there a process in place to track ergonomic and safety recommendations, implementations and successes?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q10', $attributes);?>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="questSet3" class="col-md-12 questions" style="display:none;">
+					<h2 class="text-center">Education <small>(questions 11-15)</small></h2>
+					<br />
+					<div class="well">
+						<div class="row">
+
+							<div class="col-md-10">
+								<p class="lead">11. Are employees trained to identify job risk and carry out injury reporting protocols?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q11', $attributes);?>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12"><hr></div>
+
+							<div class="col-md-10">
+								<p class="lead">12. Is there a program in place for employees to identify and report injury risk at early signs of discomfort?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q12', $attributes);?>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12"><hr></div>
+
+							<div class="col-md-10">
+								<p class="lead">13. Are employees involved in ongoing training for body mechanics and job performance?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q13', $attributes);?>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12"><hr></div>
+
+							<div class="col-md-10">
+								<p class="lead">14. Are employees informed on where to find resources and support for environmental issues?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q14', $attributes);?>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12"><hr></div>
+
+							<div class="col-md-10">
+								<p class="lead">15. Are employees trained in their personal responsibilities and contributing to the company's safety culture?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q15', $attributes);?>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="questSet4" class="col-md-12 questions" style="display:none;">
+					<h2 class="text-center">Awareness <small>(questions 16-20)</small></h2>
+					<br />
+					<div class="well">
+						<div class="row">
+							<div class="col-md-10">
+								<p class="lead">16. Are all employees aware of who safety/ergonomic representatives are and how to contact them?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q16', $attributes);?>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12"><hr></div>
+
+							<div class="col-md-10">
+								<p class="lead">17. Does management foster a culture of safety through specific initiatives and provided programs?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q17', $attributes);?>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12"><hr></div>
+
+							<div class="col-md-10">
+								<p class="lead">18. Are employees aware of company safety statistics and initiatives, as well as encouraged to contribute to improving those statistics?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q18', $attributes);?>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12"><hr></div>
+
+							<div class="col-md-10">
+								<p class="lead">19. Is there an incentive program in place to acknowledge and reward employees for reaching safety milestones?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q19', $attributes);?>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-12"><hr></div>
+
+							<div class="col-md-10">
+								<p class="lead">20. Is your company's safety message positioned as a part of employees' everyday lives?</p>
+							</div>
+							<div class="col-md-2">
+								<div class="text-right">
+									<div id="q1" class="btn-group" data-toggle="buttons">
+										<?=$this->Form->input('q20', $attributes);?>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Submit -->
+				<div id="questSet5" class="col-md-12" style="display:none;">
+					<h2 class="text-center">Thank you for taking the Safety Survey!</h2>
+					<br />
+					<div class="well">
+						<div class="row">
+							<div class="col-md-2"></div>
+							<div class="col-md-8">
+								<h3 class="text-center">Where do we send your results?</h3>
+								<hr>
+								<?=$this->Form->input('name', array('placeholder'=>'Enter Your First and Last Name', 'required' => true, 'allowEmpty' => false)); ?>
+								<?=$this->Form->input('businessName', array('placeholder'=>'Enter Business Name', 'required' => true, 'allowEmpty' => false)); ?>
+								<?=$this->Form->input('phone', array('placeholder'=>'Enter Your Phone Number', 'required' => true, 'allowEmpty' => false)); ?>
+								<?=$this->Form->input('email', array('placeholder'=>'Enter Your Email', 'required' => true, 'allowEmpty' => false)); ?>
+								<div class="g-recaptcha" data-sitekey="6LfOBRETAAAAAEwXi6Nkt5I5j5k8uy9QmjWgJrqz"></div>
+								<br />
+							</div>
+							<div class="col-md-2"></div>
+						</div>
+					</div>
+				</div>
+				<div id="surveyDisclaimer" class="col-md-12 text-center alert alert-danger">
+					Note: Please be sure you have filled out all fields including the recaptcha. Our specialists will go over your answers and get back to you with recomendation.
+				</div>
+				<div class="col-md-12">
+					<button id="nextbtn" class="btn btn-primary btn-lg pull-right" type="button">Next <span class="glyphicon glyphicon-chevron-right"></span></button>
+					<?=$this->Form->submit('Submit Survey!', array('class'=>'btn btn-primary btn-lg btn-mega pull-right', 'id'=>'submitbtn'))?>
+					<button id="prevbtn" class="btn btn-default btn-lg" type="button" style="display:none;"></button>
+				</div>
+				<?=$this->Form->end()?>
 			</div>
 		</div>
 	</div>

@@ -6,8 +6,6 @@
 			<p>We are happy to assist you and answer any questions you may have. Reach out to us and we will respond to you as soon as possible. Please use the contact form on this page if you have any questions or requests concerning our services. Or contact us by locations below.</p>
 			<p>You can also take our back pain assessment and get started even sooner on your path to wellness.</p>
 			<br />
-			<a href="/#assessmentform" class="btn btn-primary btn-lg">Take Back Pain Assessment</a>
-			<br />
 			<hr>
 			<h2>Meier &amp; Marsh Locations</h2>
 			<div class="col-md-12 addresses">
@@ -17,9 +15,6 @@
 						<div class="row">
 							<div class="col-md-1"><span class="glyphicon glyphicon-map-marker"></div>
 							<div class="col-md-11">4785 West 4100 South<br />West Valley, UT, United States</div>
-							<div class="col-md-12 addressdivide"><hr></div>
-							<div class="col-md-1"><span class="glyphicon glyphicon-phone-alt"></span></div>
-							<div class="col-md-11">(801) 955-0500</div>
 							<div class="col-md-12 addressdivide"><hr></div>
 							<div class="col-md-1"><span class="glyphicon glyphicon-envelope"></span></div>
 							<div class="col-md-11"><a href="mailto: wademeierpt@hotmail.com">wademeierpt@hotmail.com</a></div>
@@ -48,12 +43,6 @@
 							<div class="col-md-1"><span class="glyphicon glyphicon-map-marker"></div>
 							<div class="col-md-11">2356 North 400 East #101<br />Tooele, UT, United States</div>
 							<div class="col-md-12 addressdivide"><hr></div>
-							<div class="col-md-1"><span class="glyphicon glyphicon-phone-alt"></span></div>
-							<div class="col-md-11">(435) 843-1311</div>
-							<div class="col-md-12 addressdivide"><hr></div>
-							<div class="col-md-1"><span class="glyphicon glyphicon-print"></span></div>
-							<div class="col-md-11">(435) 843-9846</div>
-							<div class="col-md-12 addressdivide"><hr></div>
 							<div class="col-md-1"><span class="glyphicon glyphicon-envelope"></span></div>
 							<div class="col-md-11"><a href="mailto: troymarshpt@gmail.com">troymarshpt@gmail.com</a></div>
 							<div class="col-md-12 addressdivide"><hr></div>
@@ -81,12 +70,6 @@
 							<div class="col-md-1"><span class="glyphicon glyphicon-map-marker"></div>
 							<div class="col-md-11">1226 North Main<br />Tooele, UT, United States</div>
 							<div class="col-md-12 addressdivide"><hr></div>
-							<div class="col-md-1"><span class="glyphicon glyphicon-phone-alt"></span></div>
-							<div class="col-md-11">(435) 882-3157</div>
-							<div class="col-md-12 addressdivide"><hr></div>
-							<div class="col-md-1"><span class="glyphicon glyphicon-print"></span></div>
-							<div class="col-md-11">(435) 882-0779</div>
-							<div class="col-md-12 addressdivide"><hr></div>
 							<div class="col-md-1"><span class="glyphicon glyphicon-envelope"></span></div>
 							<div class="col-md-11"><a href="mailto: troymarshpt@gmail.com">troymarshpt@gmail.com</a></div>
 							<div class="col-md-12 addressdivide"><hr></div>
@@ -112,14 +95,14 @@
 		</div>
 		<div class="col-md-4">
 			<div class="well">
-				<h2 class="hands">Contact Us Today</h2>
+				<h2 class="hands">Send a Message</h2>
 				<hr>
 				<?=$this->Form->create('contact', array('inputDefaults'=>array('div'=>'form-group', 'class'=>'form-control', 'wrapInput'=>false)));?>
 					<?=$this->Form->input('name', array('placeholder'=>'Enter Your First and Last Name', 'required' => true, 'allowEmpty' => false)); ?>
 					<?=$this->Form->input('email', array('placeholder'=>'you@example.com', 'required' => true, 'allowEmpty' => false)); ?>
 					<?=$this->Form->input('phone', array('placeholder'=>'123-456-7890')); ?>
 					<?=$this->Form->input('comments', array('type'=>'textarea', 'class'=>'form-control', 'rows'=>'3'));?>
-					<div class="g-recaptcha" data-sitekey="6Ldc_f8SAAAAAGzrA-pKFg5_vgmZ2fd2XmXXt5xy"></div>
+					<div class="g-recaptcha" data-sitekey="6LfOBRETAAAAAEwXi6Nkt5I5j5k8uy9QmjWgJrqz"></div>
 					<?=$this->Form->submit('Submit!', array('class'=>'btn btn-primary btn-lg'))?>
 				<?=$this->Form->end()?>
 			</div>
